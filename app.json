@@ -1,0 +1,22 @@
+{
+  "name": "binFasta",
+  "stack": "merovika",
+  "description": "This is a development of binFasta file",
+  "keywords": [
+    "r",
+    "plumber"
+  ],
+  "repository": "https://github.com/marissa/Binary-Fasta-File",
+  "logo": "",
+  "success_url": "/",
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/virtualstaticvoid/heroku-buildpack-r.git"
+    }
+  ]
+}
