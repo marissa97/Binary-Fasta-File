@@ -64,7 +64,7 @@ res<- cbind(res,chrData,binData)
 binRes<- rbind(binRes,res)
 }
 
-writing(binRes, "testingHot.binFas")
+#writing(binRes, "testingHot.binFas")
 
 
 ####################################################################
